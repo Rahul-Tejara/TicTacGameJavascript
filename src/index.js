@@ -117,7 +117,6 @@ function set() {
     startNewGame();
   } else {
     turn = turn === "X" ? "O" : "X";
-    // document.getElementById('turn').textContent = 'Player ' + turn;
   }
 }
 
