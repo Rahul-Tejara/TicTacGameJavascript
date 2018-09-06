@@ -110,10 +110,12 @@ function set() {
   moves += 1;
   score[turn] += this.identifier;
   if (win(this)) {
-    alert("Winner: Player " + turn);
+    document.getElementById("message").innerHTML = "Winner: Player " + turn;
+    $("#myModal").modal("show");
     startNewGame();
   } else if (moves === GRID_LENGTH * GRID_LENGTH) {
-    alert("Draw");
+    document.getElementById("message").innerHTML = "Draw";
+    $("#myModal").modal("show");
     startNewGame();
   } else {
     turn = turn === "X" ? "O" : "X";

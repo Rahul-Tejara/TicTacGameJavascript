@@ -7,7 +7,10 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/jquery": "3.3.6",
+    "jquery": "3.3.1"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
   }
