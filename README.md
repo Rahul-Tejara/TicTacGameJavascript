@@ -1,2 +1,0 @@
-# TicTacGameJavascript
-Created with CodeSandbox
